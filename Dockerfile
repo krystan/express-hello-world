@@ -1,5 +1,5 @@
-FROM node:7.7-alpine
-MAINTAINER Jatin Shridhar <shridhar.jatin@gmail.com>
+FROM node:alpine3.18
+LABEL maintainer="Krystan Honour krystan@gmail.com"
 
 # install deps
 ADD package.json /tmp/package.json
